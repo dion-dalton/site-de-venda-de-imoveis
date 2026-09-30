@@ -21,7 +21,7 @@ nav {
   }
   
   header {
-  
+  background-color:seagreen;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -48,4 +48,13 @@ nav {
     flex: 1;
 
   }
-  
+
+  .imagem_base{
+
+
+  }
+
+    .logo {
+    width: 200px;
+    height: auto;
+    }
