@@ -1,61 +1,98 @@
-nav {
-    display: flex;
-    gap: 30px;
-    justify-content: flex-start;
-    align-items: center;
-    
-  
-  }
-  
-  
-  nav a {
-  
-    font-size: 18px;
-    color: black;
-    text-decoration: none;
-    padding: 8px 5px;
-  }
-  
-  
-  nav a:hover {
-  text-decoration: underline;
-  
-  }
-  
-  header {
+nav { 
+    display: flex; 
+    gap: 30px; 
+    justify-content: flex-start; 
+    align-items: center; 
+     
+   
+  } 
+   
+   
+  nav a { 
+   
+    font-size: 18px; 
+    color: black; 
+    text-decoration: none; 
+    padding: 8px 5px; 
+  } 
+   
+   
+  nav a:hover { 
+  text-decoration: underline; 
+   
+  } 
+   
+  header { 
+  background-color: rgba(34, 69, 185, 0.747); 
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  gap: 20px; 
+  padding: 15px 40px; 
+  } 
+   
+  header h2 { 
+    margin: 0px; 
+  } 
+ 
+  .destaque_loguin { 
+    font-size: 25px; 
+    text-decoration: none; 
+    color: black; 
+    width: 100px; 
+    text-align: right; 
+ 
+     
+   
+  } 
+ 
+  hr{ 
+    flex: 1; 
+ 
+  } 
+ 
+   
+ 
+ 
+   
+ 
+    .logo { 
+    width: 180px; 
+    height: auto; 
+    } 
+ 
+
+ 
+form { 
+ 
+  width: 300px; 
+  padding: 20px; 
+  background-color: white; 
+  border: 1px solid black; 
+  border-radius: 10px; 
+} 
+ 
+input { 
+ 
+  border: 2px solid black; 
+  width: 250px; 
+  padding: 10px; 
+  border-radius: 5px; 
+  margin-bottom: 15px; 
+} 
+ 
+button { 
+ 
   background-color: rgba(8, 37, 133, 0.747);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 20px;
-  padding: 15px 40px;
-  }
-  
-  header h2 {
-    margin: 0px;
-  }
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 14px;
+  color: black;
+ 
+}    
 
-  .destaque_loguin {
-    font-size: 25px;
-    text-decoration: none;
-    color: black;
-    width: 100px;
-    text-align: right;
-    
-  
-  }
+button:hover {
 
-  hr{
-    flex: 1;
+background-color: rgba(0, 0, 255, 0.801);
 
-  }
-
-  
-
-
-  
-
-    .logo {
-    width: 180px;
-    height: auto;
-    }
+}
