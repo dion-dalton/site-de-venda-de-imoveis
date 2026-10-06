@@ -1,3 +1,4 @@
+/* ===== CABEÇALHO ===== */
 nav { 
     display: flex; 
     gap: 30px; 
@@ -29,21 +30,21 @@ nav {
   justify-content: space-between; 
   gap: 20px; 
   padding: 15px 40px; 
+
   } 
-   
+
+  
+    .logo { 
+    width: 180px; 
+    height: auto; 
+    } 
+ 
+  /* ===== FORMULÁRIO ===== */
+    
+
   header h2 { 
     margin: 0px; 
-  } 
- 
-  .destaque_loguin { 
-    font-size: 25px; 
-    text-decoration: none; 
-    color: black; 
-    width: 100px; 
-    text-align: right; 
- 
-     
-   
+
   } 
  
   hr{ 
@@ -51,25 +52,22 @@ nav {
  
   } 
  
-   
+  h1 {
+
+    text-align: center;
+  }
  
- 
-   
- 
-    .logo { 
-    width: 180px; 
-    height: auto; 
-    } 
  
 
  
 form { 
- 
+  
   width: 300px; 
   padding: 20px; 
   background-color: white; 
   border: 1px solid black; 
   border-radius: 10px; 
+  margin: 30px auto;
 } 
  
 input { 
@@ -95,4 +93,29 @@ button:hover {
 
 background-color: rgba(0, 0, 255, 0.801);
 
+
 }
+
+
+/* ===== LINKS ESPECIAIS ===== */
+ .destaque_loguin { 
+    font-size: 25px; 
+    text-decoration: none; 
+    color: black; 
+    width: 100px; 
+    text-align: right; 
+    
+    
+     
+   
+  } 
+
+  .destaque_cadastro {
+
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 8px;
+    color: black;
+
+  }
