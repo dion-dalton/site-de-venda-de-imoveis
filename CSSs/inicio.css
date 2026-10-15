@@ -88,6 +88,7 @@ button {
   border-radius: 10px;
   font-size: 14px;
   color: black;
+  cursor: pointer;
  
 }    
 
@@ -108,5 +109,21 @@ color: blue;
 .destaque_cadastro:hover {
 
 text-decoration: underline;
+
+}
+
+form label {
+
+display: block;
+margin-bottom: 7px;
+
+}
+
+form input {
+
+display: block;
+box-sizing: border-box;
+width: 230px;
+margin-bottom: 8px;
 
 }
