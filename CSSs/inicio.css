@@ -10,8 +10,8 @@ nav {
    
   nav a { 
    
-    font-size: 18px; 
-    color: black; 
+    font-size: 25px; 
+    color: white; 
     text-decoration: none; 
     padding: 8px 5px; 
   } 
@@ -23,7 +23,7 @@ nav {
   } 
    
   header { 
-  background-color: rgba(34, 69, 185, 0.747); 
+  background-color:  #279289; 
   display: flex; 
   align-items: center; 
   justify-content: space-between; 
@@ -38,7 +38,7 @@ nav {
   .destaque_loguin { 
     font-size: 25px; 
     text-decoration: none; 
-    color: black; 
+    color: white; 
     width: 100px; 
     text-align: right; 
  
@@ -147,6 +147,83 @@ margin-top: 17px;
 
 .botao-imoveis:hover {
 
-background-color: rgba(34, 69, 185, 0.747);
+background-color:  #23448b;
 
+}
+
+.sobre {
+
+padding: 10px;
+}
+
+.sobre p {
+
+margin-bottom: 10px;
+}
+
+.sobre h1,
+.sobre h2 {
+
+margin-bottom: 13px;
+
+}
+
+
+
+footer {
+background-color: #279289;
+color: white;
+padding: 25px 40px;
+margin-top: 40px;
+}
+
+footer a {
+
+color: white;
+text-decoration: none;
+}
+
+footer a:hover {
+
+text-decoration: underline;
+}
+
+
+footer p {
+
+margin: 10px 0; 
+}
+
+
+footer .logo {
+
+width: 140px;
+height: auto;
+}
+
+
+
+footer h2 {
+
+margin: 10px 0;
+font-size: 20px;
+}
+
+footer address {
+
+font-style: normal;
+}
+
+footer .rodape-conteudo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+footer .rodape-contato {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
 }
